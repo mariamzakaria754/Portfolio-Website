@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Mariam Zakaria</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./images/video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <!-- header.header -->
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input
+          id="menu"
+          class="burger-menu__checkbox"
+          type="checkbox"
+          placeholder="Burger Menu"
+        />
+
+        <!-- nav.navigation>ul.navigation__list>li *6>a.navigation__link -->
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .toggle -->
+
+        <div class="toggle">
+          <!-- h3.toggle__title -->
+          <h3 class="toggle__title">Switch Theme</h3>
+          <!-- input:checkbox.toggle__checkbox -->
+          <input
+            placeholder="placeholder"
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <!-- label.toggle__label -->
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Frontend Developer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Mariam Zakaria</span>, I’m a
+            frontend student at <br />
+            <a
+              href="https://almdrasa.com/"
+              class="bio__almdrasa"
+              target="_blank"
+              rel="noopener"
+              >Almdrasa.com</a
+            >, a voice-over artist. I love learning, building web projects
+            <a
+              href="https://www.facebook.com/mariam.zakaria.768039"
+              class="bio__facebook"
+              target="_blank"
+              rel="noopener"
+              >Facebook</a
+            >,
+            <a
+              href="https://x.com/MariamZaka90487"
+              class="bio__twitter"
+              target="_blank"
+              rel="noopener"
+              >Twitter</a
+            >,
+            <a
+              href="https://www.linkedin.com/in/mariam-zakaria-70b9a8397/"
+              class="bio__linkedin"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+
+            and
+            <a
+              href="https://youtube.com/@mariamzakaria-hu6sf?si=VWCPhGqTvnoAeBh8"
+              class="bio__youtube"
+              target="_blank"
+              rel="noopener"
+              >Youtube</a
+            >.
+          </p>
+          <a href="#contact" class="bio__links say-hi-link"> Say Hi</a>
+          <a
+            href="./images/mariamZakariaResume.pdf"
+            class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic--content">
+          <img
+            class="bio__pic"
+            src="./images/personal-pic.png"
+            alt="image of
+          mariam zakaria"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills__years">3 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">4 years</span>
+          </li>
+
+          <li class="skills__item">
+            <h2 class="skills__title">React testing library</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video class="media__video" poster="./images/thumbnail.webp" controls>
+          <source src="./images/video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          MY FEATURED<br />
+          PROJECTS
+        </h2>
+
+        <div class="projects__main">
+          <img
+            src="./images/project-1.jpg"
+            alt=" Recipe Page project"
+            class="projects__img"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Recipe Page<br />
+              Project
+            </h3>
+            <p class="projects__description">
+              A clean and responsive recipe page built using semantic HTML and
+              modern CSS. The layout focuses on readability, clear content
+              structure, and a visually appealing design suitable for different
+              screen sizes.
+            </p>
+            <a
+              href="https://github.com/mariamzakaria754/recipe-page/tree/main/recipe-page-main"
+              class="projects__links"
+              target="_blank"
+              rel="noopener"
+              >Github Link</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Booking App UI <br />
+              project
+            </h3>
+            <p class="projects__description">
+              A chat-based booking interface that enables easy communication
+              between users and dog walkers. The design focuses on a smooth user
+              experience, allowing image sharing, walk duration selection, and
+              clear pricing, with strong attention to UI/UX, gradients, and
+              clean layout.
+            </p>
+            <a
+              href="https://github.com/mariamzakaria754/chat-app-css-illustration-master/tree/main/chat-app-css-illustration-master"
+              class="projects__links"
+              target="_blank"
+              rel="noopener"
+              >Github Link</a
+            >
+          </div>
+          <img
+            src="./images/project-2.jpg"
+            alt="Dog Walking Booking App UI "
+            class="projects__img"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">WHAT MY <br />CLIENTS SAYS.</h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="client__opinion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate reprehenderit at iusto rerum eveniet voluptatem
+              consequuntur aut praesentium fuga, sequi cumque alias nihil
+              placeat possimus? Sapiente, animi. A, adipisci consequuntur! Culpa
+              id autem quasi, natus ad cum ea velit! Debitis veniam dignissimos,
+              officia minima consequuntur, cupiditate, itaque facilis dolore
+              vitae quam ipsa!
+            </p>
+            <p class="client__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+              consectetur adipisicing elit. Cupiditate reprehenderit at iusto
+              rerum eveniet voluptatem consequuntur aut praesentium fuga, sequi
+              cumque alias nihil placeat possimus? Sapiente, animi. A, adipisci
+              consequuntur! Culpa id Culpa id autem quasi, natus ad cum ea
+              velit! Debitis veniam dignissimos, officia minima consequuntur,
+              cupiditate, itaque facilis dolore vitae quam ipsa!
+            </p>
+            <p class="client__opinion">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              odio tenetur earum, amet consectetur adipisicing elit. Cupiditate
+              reprehenderit at iusto rerum eveniet voluptatem consequuntur aut
+              praesentium fuga, sequi cumque alias nihil placeat possimus?
+              Sapiente, animi. A, adipisci consequuntur! Culpa id fugiat
+              corrupti itaque molestiae ducimus enim placeat. Deleniti minima,
+              itaque nostrum optio vel ex saepe odit aliquid quis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <div class="contact__socials">
+            <!-- <a
+              href="mailto:mariamzakaria754@gmail.com? subject=Hello "
+              class="contact__email"
+              target="_blank"
+              rel="noopener"
+            >
+              mariamzakaria754@gmail.com
+            </a> -->
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=mariamzakaria754@gmail.com&su=Hello&body=Hi"
+              target="_blank"
+              rel="noopener"
+              class="contact__email"
+            >
+              mariamzakaria754@gmail.com
+            </a>
+
+            <div class="contact__socials">
+              <!-- Facebook -->
+              <a
+                href="https://www.facebook.com/mariam.zakaria.768039"
+                class="contact__social"
+                target="_blank"
+                rel="noopener"
+                alt="Facebook"
+              >
+                <svg
+                  class="contact__icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Visit my Facebook page"
+                >
+                  <path
+                    d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-2.9h2v-2.2c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2v2h2.3L14.8 15h-2v7A10 10 0 0 0 22 12z"
+                  />
+                </svg>
+              </a>
+
+              <!-- X (Twitter) -->
+              <a
+                href="https://x.com/MariamZaka90487"
+                class="contact__social"
+                target="_blank"
+                rel="noopener"
+                alt="Twitter"
+              >
+                <svg
+                  class="contact__icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Visit my twitter page"
+                >
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.69l-5.24-6.85-6.02 6.85H1.56l7.73-8.82L1 2.25h6.86l4.73 6.23 5.65-6.23z"
+                  />
+                </svg>
+              </a>
+
+              <!-- YouTube -->
+              <a
+                href="https://youtube.com/@mariamzakaria-hu6sf?si=VWCPhGqTvnoAeBh8"
+                class="contact__social"
+                target="_blank"
+                rel="noopener"
+                alt="YouTube"
+              >
+                <svg
+                  class="contact__icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Visit my youtube page"
+                >
+                  <path
+                    d="M23.5 6.2s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.4-1C16.8 2.5 12 2.5 12 2.5h-.1s-4.8 0-8.2.4c-.5.1-1.5.1-2.4 1C.6 4.6.4 6.2.4 6.2S0 8.1 0 10v1.9c0 1.9.4 3.8.4 3.8s.2 1.6.9 2.3c.9.9 2.1.9 2.6 1 1.9.2 8.1.4 8.1.4s4.8 0 8.2-.4c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.3.9-2.3s.4-1.9.4-3.8V10c0-1.9-.4-3.8-.4-3.8zM9.6 13.8V7.8l6.4 3-6.4 3z"
+                  />
+                </svg>
+              </a>
+
+              <!-- GitHub -->
+              <a
+                href="https://github.com/mariamzakaria754"
+                class="contact__social"
+                target="_blank"
+                rel="noopener"
+                alt="GitHub"
+              >
+                <svg
+                  class="contact__icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Visit my githube page"
+                >
+                  <path
+                    d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.8 1.7.8 1.7.9 1.5 2.4 1.1 3 .8.1-.6.3-1.1.6-1.4-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.1-3.1-.1-.3-.5-1.6.1-3.3 0 0 .9-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.3-1.5 3.2-1.2 3.2-1.2.6 1.7.2 3-.1 3.3.7.8 1.1 1.8 1.1 3.1 0 4.5-2.7 5.5-5.3 5.8.3.3.7.9.7 1.8v2.7c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/mariam___754/?next=%2F"
+                class="contact__social"
+                target="_blank"
+                rel="noopener"
+                alt="Instagram"
+              >
+                <svg
+                  class="contact__icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Visit my instagram page"
+                >
+                  <path
+                    d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 7.4a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8zM17.5 6.2a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2z"
+                  />
+                </svg>
+              </a>
+
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/in/mariam-zakaria-70b9a8397/"
+                class="contact__social"
+                target="_blank"
+                rel="noopener"
+                alt="LinkedIn"
+              >
+                <svg
+                  class="contact__icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Visit my linkedin page"
+                >
+                  <path
+                    d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3 9h4v12H3V9zm7 0h3.8v1.6h.1c.5-.9 1.8-1.8 3.7-1.8 4 0 4.7 2.6 4.7 6v6.2h-4V15.5c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9v5.6h-4V9z"
+                  />
+                </svg>
+              </a>
+              <!-- Gmail -->
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mariamzakaria754@gmail.com&su=Hello"
+                class="contact__social"
+                target="_blank"
+                rel="noopener"
+                alt="Gmail"
+              >
+                <svg
+                  class="contact__icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Visit my gmail page"
+                >
+                  <path d="M2 4h20v16H2V4zm2 2v12h16V6H4zm8 5l8-5H4l8 5z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/mariam.zakaria.768039"
+              class="contact__social"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="./images/brand/facebook.svg"
+                alt="icon of facebook"
+                class=""
+            /></a>
+            <a
+              href="https://x.com/MariamZaka90487"
+              class="contact__social"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="./images/brand/twitter.svg"
+                alt="icon of twitter"
+                class=""
+            /></a>
+            <a
+              href="https://youtube.com/@mariamzakaria-hu6sf?si=VWCPhGqTvnoAeBh8"
+              class="contact__social"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="./images/brand/youtube.svg" alt="icon of youtube"
+              class="" / >
+            </a>
+            <a
+              href="https://github.com/mariamzakaria754"
+              class="contact__social"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="./images/brand/github.svg"
+                alt="icon of githube"
+                class=""
+            /></a>
+            <a
+              href="https://www.instagram.com/mariam___754/?next=%2F"
+              class="contact__social"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="./images/brand/instagram.svg"
+                alt="icon of instagram"
+                class=""
+            /></a>
+            <a
+              href=" https://www.linkedin.com/in/mariam-zakaria-70b9a8397/"
+              class="contact__social"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="./images/brand/LinkedIn.svg"
+                alt="icon of linkedin"
+                class=""
+              />
+            </a>
+          </div> -->
+
+        <div class="contact__formcontent">
+          <h2 class="h2-heading">
+            LET’S WORK <br />
+            TOGETHER!
+          </h2>
+          <form action="results.html" class="">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                required
+                name="full name"
+              />
+              <input class="contact__input" " type="tel" placeholder="Phone No."
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="telephone"/>
+            </div>
+
+            <textarea
+              class="contact__input contact__textarea"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+              name="description"
+            ></textarea>
+            <input
+              class="contact__button"
+              type="submit"
+              value="Send Message"
+              placeholder="Send Message"
+            />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2025 by Mariam Zakaria</footer>
+    </div>
+  </body>
+</html>
